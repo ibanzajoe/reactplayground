@@ -1,9 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.css'
 
-import CarouselWindow from './components/CarouselWindow'
-import ImageStrip from './components/ImageStrip'
+import CarouselWindow from './components/Carousel/CarouselWindow'
 
 
 import Dog from './components/white-dog.jpg'
@@ -18,25 +17,11 @@ const images = [Dog, Dog2, Dog3, Cat, Cat2, Cat3]
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>Add your new component below</p>
-        
-        <div className="theImage">
-          <CarouselWindow images={images} />
-        </div>
-        
-        
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>Add your new component below</p>
+      
+      <div className="theImage">
+        <CarouselWindow images={images} />
+      </div>
     </div>
   );
 }

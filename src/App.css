@@ -27,12 +27,13 @@
 .App-link {
   color: #61dafb;
 }
-
+.flickity {
+  width: 400px;
+}
 .theImage {
-  display: block;
-  max-width: 800px;
-  
-  padding: 0 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  height: 100%;
   background-color: black;
 }
 
